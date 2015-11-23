@@ -150,7 +150,7 @@ class Map:
 class Ship:
 	def __init__(self,Map,Screen):
 		self.map = Map;
-		self.acceleration = 
+		self.acceleration = np.array([0,0],float);
 		self.velocity = np.array([1000,1000],float);
 		self.Screen = Screen;
 		self.fuel = 500;
